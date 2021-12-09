@@ -1,0 +1,54 @@
+.user-profile {
+    .name {
+    }
+
+    .image-container {
+        display: flex;
+        flex-direction: row;
+        img {
+            width: 128px;
+            height: 128px;
+        }
+        .counters {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            margin-left: 1em;
+
+            .followers {
+                &__count {
+                }
+                &__label {
+                }
+            }
+
+            .stars {
+                &__count {
+                }
+                &__label {
+                }
+            }
+        }
+    }
+
+    .languages {
+        border-collapse: collapse;
+        margin-top: 1em;
+        tr {
+            td {
+                border: solid 1px black;
+                padding: 0.3em 2em;
+            }
+        }
+    }
+
+    .notes {
+        margin-top: 1em;
+        &__title {
+            display: block;
+            font-weight: bold;
+        }
+        &__content {
+        }
+    }
+}
